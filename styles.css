@@ -90,6 +90,7 @@ li {
   #lock,#eyeSlash {
     font-size: 32px;
   }
+}
 
 @media (max-width:832px) {
  .container,.checks {
