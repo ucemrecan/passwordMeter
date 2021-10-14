@@ -90,3 +90,23 @@ li {
   #lock,#eyeSlash {
     font-size: 32px;
   }
+
+@media (max-width:832px) {
+ .container,.checks {
+   width: 100%;
+ }
+ .checks {
+   font-size: 24px;
+ }
+ .container {
+   height:80px;
+ }
+ #password {
+   height: 40px;
+   width: 380px;
+   font-size: 24px;
+ }
+ #lock,#eyeSlash {
+   font-size: 24px;
+ }
+  }
