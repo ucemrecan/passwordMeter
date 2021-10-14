@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Password Strength Meter</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Festive&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- icons -->
+  <script src="https://kit.fontawesome.com/a0eab688e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="passwordField" class="container">
+    <i id="lock" class="fas fa-lock iconColors"></i>
+    <input type="password" id="password" placeholder="Password" required oninput="checkConditions()" >
+    <i id="eyeSlash" class="fas fa-eye-slash iconColors"></i>
+  </div>
+  <div class="checks">
+    <ul id="checkList" class="displayNone">
+      <li><i id="icon1" class="fas fa-times listIcons"></i>Upper Case</li>
+      <li><i id="icon2" class="fas fa-times listIcons"></i>Special Character</li>
+      <li><i id="icon3" class="fas fa-times listIcons"></i>Number</li>
+      <li><i id="icon4" class="fas fa-times listIcons"></i>More than 8 characters</li>
+    </ul>
+  </div>
+
+  <!-- js -->
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
+
+<!--
+  <i class="fas fa-eye"></i>
+  <i class="fas fa-check"></i>
+  <i class="fas fa-times"></i> -->

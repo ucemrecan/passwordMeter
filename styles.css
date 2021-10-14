@@ -1,0 +1,92 @@
+body {
+  background-color: #b8c6db;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  flex-direction: column;
+}
+
+.container,.checks {
+  background-color: #082032;
+  width: 350px;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px rgba(100, 100, 100, 0.5);
+}
+
+.container {
+  text-align: center;
+  height: 50px;
+  font-size: 16px;
+}
+
+.checks {
+  font-family: "Poppins",sans-serif;
+  color: #EFEFEF;
+  text-align: left;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 15px;
+}
+
+li {
+  margin: 10px auto;
+}
+
+.displayNone {
+  display: none;
+}
+
+.listIcons {
+  margin: auto 0.5rem;
+}
+
+#lock,#eyeSlash,#password {
+  margin: 0.75rem 0.5rem;
+  height: 24px;
+}
+
+.iconColors{
+  color: #EFEFEF;
+}
+
+#eyeSlash {
+  cursor: pointer;
+}
+
+#password {
+  font-family: "Poppins",sans-serif;
+  width: 200px;
+  font-size: 14px;
+}
+
+.whiteBg {
+  background-color: #fff;
+}
+
+/* mobile size */
+@media (max-width:1080px) {
+  .container,.checks {
+    width: 100%;
+  }
+  .checks {
+    font-size: 32px;
+  }
+  .container {
+    height:100px;
+  }
+  #password {
+    height: 60px;
+    width: 700px;
+    font-size: 32px;
+  }
+  #lock,#eyeSlash {
+    font-size: 32px;
+  }
